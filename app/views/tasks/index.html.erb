@@ -1,0 +1,6 @@
+<h1>Tasks List</h1>
+
+<% @tasks.each do |t|%>
+  <p><%= t.name %></p>
+  <p> priority: <%= t.priority %></p>
+<% end %>
